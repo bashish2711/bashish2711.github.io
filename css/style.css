@@ -218,10 +218,10 @@ ul.social-icons{
     margin-right: 1%;
 }
 .social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
+    background: url(../images/social-icons3.png) no-repeat 4px 4px;
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 36px;
+    width: 36px;
 	margin-right: 1em;
 	-webkit-transition: .5s all;
     transition: .5s all;
@@ -230,24 +230,33 @@ ul.social-icons{
 .social-icons li a:before {
 	content: '';
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 36px;
+    width: 36px;
        border: 2px solid #fff;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg); 
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg); 
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
 }
 .social-icons li a.fb{
-	background-position: 3px -30px;
+	background-position: -54px 0px;
 }
-.social-icons li a.in{
-      background-position: 3px -62px;
+.social-icons li a.lin{
+      background-position: -260px 0px;
 }
 .social-icons li a.dott {
 background-position: 3px -94px;
+}
+.social-icons li a.gplus {
+background-position: 0px -50px;
+}
+.social-icons li a.wapp {
+background-position: -207px 0px;
+}
+.social-icons li a.insta {
+background-position: 0px 0px;
 }
 .social-icons li a:hover::before {
     border-color: #00a78e;
